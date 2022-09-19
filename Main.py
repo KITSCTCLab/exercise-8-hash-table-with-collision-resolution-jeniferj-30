@@ -2,6 +2,8 @@ import re
 
 def display_hash(hashtable) -> None:
 	# Write your code here
+	content=harhtable[keyvalue]
+	print(keyvalue, end="")
 
 def Hashing(keyvalue) -> int:
 	return keyvalue % len(HashTable)
