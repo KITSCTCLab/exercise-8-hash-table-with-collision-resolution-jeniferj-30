@@ -3,11 +3,12 @@ import re
 def display_hash(hashtable) -> None:
 # Write your code here
 for keyvalue in range(len(hashtable)):
-content = hashtable[keyvalue]
-print(keyvalue, end = " ")
-for element in content:
-print("-->", element, end = " ")
-print()
+  content = hashtable[keyvalue]
+  print(keyvalue, end = " ")
+  for element in content:
+  print("-->", element, end = " ")
+  print()
+
 
 def Hashing(keyvalue) -> int:
 return keyvalue % len(HashTable)
